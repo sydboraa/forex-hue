@@ -9,7 +9,9 @@ I used IFTTT to trigger Philips Hue lights with WebHooks. Cron job triggers my w
 Webtask compares the difference between rates and sends a request to WebHook with color parameter in IFTTT. 
 According to the color parameter lights will change their color to red or green.
 
-//video link
+Below you can find the whole time lapsed video for the Hue lights.
+
+[Philips Hue Exchange Rate WebTask Demo](https://youtu.be/C_vgjHLJ8jI)
 
 # Requirements
 
