@@ -1,4 +1,4 @@
-#Philips Hue Color Changer According to Exchange Rate
+# Philips Hue Color Changer According to Exchange Rate
 
 This project is about changing the color of Philips Hue lights depending on the exchange rate of TRY to USD increase/decrease.
 If the latest rate is bigger or equal than the old one, lights color will be green. If not lights color will be red. 
@@ -11,12 +11,12 @@ According to the color parameter lights will change their color to red or green.
 
 //video link
 
-#Requirements
+# Requirements
 
 If you need to run this webtask, you need to setup your color changer Applets in IFTTT with Philip Hue service. 
 
-#How to run
+# How to run
 
-wt cron create --schedule "*/1 * * * *" ./index.js
+> wt cron create --schedule "*/1 * * * *" ./index.js
 
 
